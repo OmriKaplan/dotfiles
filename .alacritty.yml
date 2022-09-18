@@ -1,0 +1,20 @@
+background_opacity: 0.80
+
+font:
+  normal:
+    family: "JetBrains Mono"
+    style: Regular
+  bold:
+    family: "JetBrains Mono"
+    style: Bold
+  italic:
+    family: "JetBrains Mono" 
+    style: Italic
+  size: 13.0
+  offset:
+    x: 1
+    y: 1
+
+key_bindings:
+  - { key: V, mods: Alt|Control, mode: ~Search, action: ToggleViMode }
+
