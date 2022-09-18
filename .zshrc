@@ -22,7 +22,9 @@ autoload -Uz compinit && compinit
 
 eval "$(pyenv init -)"
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
-source ~/gitstatus/gitstatus.prompt.zsh
+
+# Load gitstatus
+source ~/.zsh/gitstatus/gitstatus.prompt.zsh
 
 # Load autosuggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
