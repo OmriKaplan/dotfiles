@@ -1,4 +1,12 @@
-background_opacity: 0.80
+window:
+  dimensions:
+    columns: 200
+    lines: 50
+  opacity: 0.85
+  decorations: buttonless
+  padding:
+    x: 16
+    y: 16
 
 font:
   normal:
