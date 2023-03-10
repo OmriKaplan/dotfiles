@@ -44,7 +44,12 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 setopt auto_pushd
 
 # Add Poetry to path
-path+=(${HOME}/.poetry/bin)
+path+=(${HOME}/.local/bin)
+
+# Load Poetry completions
+fpath+=~/.zfunc
+autoload -Uz compinit && compinit
+
 
 # Alias for creating notes in Notes dir
 note() {
