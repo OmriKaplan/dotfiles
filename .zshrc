@@ -53,7 +53,7 @@ autoload -Uz compinit && compinit
 
 # Alias for creating notes in Notes dir
 note() {
-	vim ~/Documents/notes/$1
+	vim ${HOME}/Documents/notes/$1
 }
 
 # Add alias for dotfiles management
