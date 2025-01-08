@@ -17,6 +17,7 @@ bindkey '\C-x\C-e' edit-command-line
 # Load Git completion
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
+fpath=(~/.zsh/completion $fpath)
 
 autoload -Uz compinit && compinit
 
