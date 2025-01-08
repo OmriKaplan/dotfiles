@@ -6,6 +6,9 @@ set incsearch
 
 syntax enable
 filetype indent plugin on
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 map <leader>h :noh<CR>
 
