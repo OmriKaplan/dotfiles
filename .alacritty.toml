@@ -1,0 +1,39 @@
+[font]
+size = 13.0
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.offset]
+x = 1
+y = 1
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "V"
+mode = "~Search"
+mods = "Alt|Control"
+
+[window]
+decorations = "buttonless"
+opacity = 0.85
+
+[window.dimensions]
+columns = 200
+lines = 50
+
+[window.padding]
+x = 16
+y = 16
+
+[env]
+term = "xterm-256color"
