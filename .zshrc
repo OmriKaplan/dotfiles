@@ -1,3 +1,6 @@
+# Add homebrew to the path
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Add Android platform tools to $PATH
 android_sdk=${HOME}/Library/Android/sdk
 path+=(${android_sdk}/platform-tools)
